@@ -45,25 +45,6 @@
  function calculateChange() {
   totalCost = 0;
   timeline = '0';
-  
-  // Calculations for totalCost and timeline go here...
-  // (Code omitted for brevity)
-
-  totalBudget = totalCost;
-  time = timeline;
-  console.log("Total: " + totalCost);
-  console.log("Timeline: " + timeline);
-  
-  // Assuming you have a reference to your text element
-  var textElement = document.getElementById("totalBudget");
-  var timelineElement = document.getElementById("time");
-
-  textElement.setAttribute("total-cost", totalBudget);
-  timelineElement.setAttribute("timeline", time);
-  
-  textElement.textContent = "$" + totalBudget;
-  timelineElement.textContent = time;  
-}
     
   if (design.checked) {
       totalCost += 5000;
